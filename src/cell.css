@@ -1,0 +1,22 @@
+#main {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+
+.fa-cross,
+.fa-procedures {
+  color: rgb(84, 13, 117);
+}
+
+#deceased {
+  text-align: center;
+  border-radius: 10px;
+}
+
+#infected {
+  border-radius: 10px;
+  max-width: 15rem;
+}

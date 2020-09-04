@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'Gayathri', sans-serif;
+}
+
+.input-state {
+  position: relative;
+  width: 250px;
+  height: 44px;
+  line-height: 44px;
+}
+
+label {
+  position: absolute;
+  top: 4rem;
+  left: 0;
+  width: 100%;
+  color: #b9b4b4;
+  transition: 0.35s all;
+  cursor: text;
+}
+
+input {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid #b9b4b4;
+  box-shadow: none;
+  color: #111;
+  transition: ease-in 0.35s;
+}
+
+.btn-search {
+  margin: 1rem 0;
+  color: white;
+  background-color: rgb(84, 13, 117);
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem;
+  outline: 0;
+  transition: ease-in 0.35s;
+}
+
+.btn-search:hover {
+  cursor: pointer;
+  background-color: #0bca27;
+}
+
+input:focus {
+  border-color: #0bca27;
+}
+
+input:focus ~ label {
+  font-size: 11px;
+  transform: translateY(8px);
+  color: #0bca27;
+}
+
+small {
+  font-size: 0.7rem;
+}
+
+p {
+  margin-top: 0.5rem;
+  font-size: 0.4rem;
+}
