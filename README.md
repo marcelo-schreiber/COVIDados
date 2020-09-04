@@ -6,7 +6,7 @@ This repository was uploaded without node_modules, add one and then do the bello
 
 ## API
 
-https://apify.com/pocesar/covid-brazil
+https://apify.com/pocesar/covid-brazil made by pocesar
 
 ## Available Scripts
 
