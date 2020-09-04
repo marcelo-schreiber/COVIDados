@@ -1,5 +1,8 @@
 # COVIDados
 
+website showcase:
+https://covidados.netlify.app/
+
 A website made with react.js showing covid-19 cases and deaths in all brazilian states.
 
 This repository was uploaded without node_modules, add one and then do the bellow instructions:
